@@ -14,7 +14,7 @@ namespace :book do
     puts " -- HTML output at My_book.html"
 
     puts "Converting to PDF... (this one takes a while)"
-    `bundle exec asciidoctor-pdf Book_template_top.asc -o My_book.html`
+    `bundle exec asciidoctor-pdf Book_template_top.asc -o My_book.pdf`
     puts " -- PDF  output at My_book.pdf"
   end
   
